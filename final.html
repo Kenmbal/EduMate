@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="icon" href="/images/favicon.png" type="image/png">
     <title>EduMate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -11,7 +12,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #ffffff;
+        background-color: #fa2a88;
       }
 
       #loading-screen {
@@ -20,7 +21,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #ffffff;
+        background-color: #fa2a88;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -30,7 +31,7 @@
       /* Spinner styles */
       .spinner {
         border: 8px solid #f3f3f3;
-        border-top: 8px solid #2563eb;
+        border-top: 8px solid #840944;
         border-radius: 50%;
         width: 50px;
         height: 50px;
@@ -91,7 +92,7 @@
           botName: "EduMate",
 
           // Add the avatar URL here
-          avatarUrl: "https://scontent.xx.fbcdn.net/v/t1.15752-9/462638091_556790207323689_4635697836386795126_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeEnHVqhKRSUGqZoBNytiNYM8oZnEH7LcXvyhmcQfstxe2rf-3bJm8veKUWiGw8gBiZ-4jXM3lQP-YXmBKDOkOZp&_nc_ohc=tbyAs8e7NYwQ7kNvgHkr3k_&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEZIhRlS74ReVFd4z1lvrYHcUX-TqqSp40EGVgZreOGTw&oe=6780C07B", 
+          avatarUrl: "https://i.pinimg.com/originals/0c/67/5a/0c675a8e1061478d2b7b21b330093444.gif", 
           stylesheet: "https://webchat-styler-css.botpress.app/prod/code/b418af80-230a-4be0-8c33-bbb9dc4af279/v26072/style.css",// Example chatbot avatar URL
 
           showBotInfoPage: true,
@@ -117,7 +118,7 @@
 
       // Simulate a delay to show the loading screen
       window.addEventListener("load", function () {
-        setTimeout(initializeChatbot, 1000); // Adjust delay as needed
+        setTimeout(initializeChatbot, 500); // Adjust delay as needed
       });
     </script>
   </body>
